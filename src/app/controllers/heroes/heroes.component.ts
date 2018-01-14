@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import { Hero } from '../../models/hero';
+import { HEROES } from '../../../db/mock-heroes';
 
 @Component({
   selector: 'app-heroes',
@@ -12,6 +13,8 @@ export class HeroesComponent implements OnInit {
     id: 1,
     name: 'Windstorm'
   };
+  heroes = HEROES;
+
   constructor() { }
 
   ngOnInit() {
