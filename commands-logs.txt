@@ -1,0 +1,7 @@
+$ ng new angular-heroes
+$ cd angular-heroes
+commit..
+
+$ ng generate component controllers/heroes
+$ ng g service services/hero
+commit..
