@@ -12,3 +12,6 @@ commit..
 $ ng generate component controllers/messages
 $ ng generate service services/message --module=app
 commit..
+
+$ ng generate module config/app-routing --flat --module=app
+commit..
