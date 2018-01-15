@@ -15,3 +15,6 @@ commit..
 
 $ ng generate module config/app-routing --flat --module=app
 commit..
+
+$ ng generate component controllers/dashboard
+commit..
