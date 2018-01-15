@@ -18,3 +18,6 @@ commit..
 
 $ ng generate component controllers/dashboard
 commit..
+
+$ npm install angular-in-memory-web-api --save
+commit..
