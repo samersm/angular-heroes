@@ -5,3 +5,6 @@ commit..
 $ ng generate component controllers/heroes
 $ ng g service services/hero
 commit..
+
+$ ng g component controllers/heroes/hero-detail
+commit..
