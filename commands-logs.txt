@@ -3,7 +3,7 @@ $ cd angular-heroes
 commit..
 
 $ ng generate component controllers/heroes
-$ ng g service services/hero
+$ ng g service services/hero --module=app
 commit..
 
 $ ng g component controllers/heroes/hero-detail
