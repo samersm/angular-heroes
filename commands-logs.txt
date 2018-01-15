@@ -8,3 +8,7 @@ commit..
 
 $ ng g component controllers/heroes/hero-detail
 commit..
+
+$ ng generate component controllers/messages
+$ ng generate service services/message --module=app
+commit..
