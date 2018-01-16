@@ -14,6 +14,7 @@ import { MessagesComponent } from './controllers/messages/messages.component';
 import { MessageService } from './services/message.service';
 import { AppRoutingModule } from './config/app-routing.module';
 import { DashboardComponent } from './controllers/dashboard/dashboard.component';
+import { HeroSearchComponent } from './controllers/search/hero-search/hero-search.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { DashboardComponent } from './controllers/dashboard/dashboard.component'
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
